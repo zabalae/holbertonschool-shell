@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(sort read)" | uniq -u
+echo -e "$(sort read)" | uniq -u
