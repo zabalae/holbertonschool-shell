@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec ls -t1 {} + | head | cut -d' ' -f 2-
+find . -type f -exec ls -t1 {} + | cut -d' ' -f 2- | head
