@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -exec ls {} + | grep -v / | head
+ls -t1 | head
